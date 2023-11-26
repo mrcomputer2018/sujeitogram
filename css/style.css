@@ -50,3 +50,55 @@ body {
 .right {
     padding-left: 20px;
 }
+
+.login-painel {
+    background: #fff;
+    border: 1px solid #e6e6e6;
+    border-radius: 5px;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.logo-img {
+    width: 175px;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+input {
+    width: 320px;
+    height: 40px;
+    border: 1px solid #e6e6e6;
+    border-radius: 5px;
+    padding: 0 10px;
+    margin-bottom: 10px;
+}
+
+input:focus {
+    border: 1px solid #3c96ec;
+}
+
+input[type="passowrd"],
+input[type="text"] {
+    background-color: #fff;
+    font-size: 13px;
+    color: #000;
+}
+
+input[type="submit"] {
+    background: #3c96ec;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+input[type="password"]::placeholder,
+input[type="text"]::placeholder {
+    color:rgb(165,164,164)
+}
